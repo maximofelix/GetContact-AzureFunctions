@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "ContactManager.AzGet": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7127"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "containerRunArguments": "--init",
+      "httpPort": 32303,
+      "useSSL": false
+    }
+  }
+}
